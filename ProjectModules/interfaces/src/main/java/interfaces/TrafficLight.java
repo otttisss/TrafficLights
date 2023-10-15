@@ -1,7 +1,7 @@
 package interfaces;
 
 public interface TrafficLight {
-    void switchToRead();
+    void switchToRed();
     void switchToGreen();
     void switchToYellow();
 }
