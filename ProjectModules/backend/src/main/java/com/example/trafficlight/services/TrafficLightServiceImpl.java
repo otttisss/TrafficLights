@@ -1,10 +1,10 @@
-package services;
+package com.example.trafficlight.services;
 
-import interfaces.TrafficLightRepository;
+import com.example.trafficlight.interfaces.TrafficLightRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
-import interfaces.TrafficLightsService;
+import com.example.trafficlight.interfaces.TrafficLightsService;
 
 @Service
 @Component

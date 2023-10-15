@@ -1,6 +1,6 @@
-package services;
+package com.example.trafficlight.services;
 
-import interfaces.TrafficLight;
+import com.example.trafficlight.interfaces.TrafficLight;
 import org.springframework.stereotype.Component;
 
 @Component

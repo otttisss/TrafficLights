@@ -1,7 +1,7 @@
-package tests;
+package com.example.trafficlight;
 
 import org.junit.Test;
-import repository.TrafficLightLocalRepository;
+import com.example.trafficlight.repository.TrafficLightLocalRepository;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

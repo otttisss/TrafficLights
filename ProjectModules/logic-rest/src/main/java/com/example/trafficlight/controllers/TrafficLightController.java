@@ -1,7 +1,7 @@
-package controllers;
+package com.example.trafficlight.controllers;
 
-import interfaces.TrafficLight;
-import interfaces.TrafficLightsService;
+import com.example.trafficlight.interfaces.TrafficLight;
+import com.example.trafficlight.interfaces.TrafficLightsService;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.beans.factory.annotation.Autowired;
 @RestController

@@ -1,6 +1,6 @@
-package tests;
+package com.example.trafficlight;
 
-import interfaces.TrafficLightsService;
+import com.example.trafficlight.interfaces.TrafficLightsService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,7 +1,7 @@
-package tests;
+package com.example.trafficlight;
 
-import interfaces.TrafficLight;
-import interfaces.TrafficLightRepository;
+import com.example.trafficlight.interfaces.TrafficLight;
+import com.example.trafficlight.interfaces.TrafficLightRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,7 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.test.context.junit4.SpringRunner;
-import services.TrafficLightServiceImpl;
+import com.example.trafficlight.services.TrafficLightServiceImpl;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

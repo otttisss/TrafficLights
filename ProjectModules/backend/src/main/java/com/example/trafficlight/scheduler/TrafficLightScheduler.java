@@ -1,6 +1,6 @@
-package scheduler;
+package com.example.trafficlight.scheduler;
 
-import interfaces.TrafficLight;
+import com.example.trafficlight.interfaces.TrafficLight;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;

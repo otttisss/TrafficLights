@@ -1,6 +1,6 @@
-package repository;
+package com.example.trafficlight.repository;
 
-import interfaces.TrafficLightRepository;
+import com.example.trafficlight.interfaces.TrafficLightRepository;
 import org.springframework.stereotype.Repository;
 
 
