@@ -29,22 +29,28 @@ This project implements a traffic light control system with support for manual a
 1. Make sure you have [Java](https://www.java.com/) and [Maven](https://maven.apache.org/) installed on your system.
 
 2. Clone the repository:
-
-''git clone https://github.com/otttisss/TrafficLights.git''
+   
+```
+git clone https://github.com/otttisss/TrafficLights.git
+```
 
 3. Navigate to the project directory:
 
-''cd traffic-light-control''
-
+```
+cd traffic-light-control
+```
 
 4. Build the project:
 
-''mvn clean install''
+```
+mvn clean install
+```
 
 5. Start the application:
 
-''mvn spring-boot:run''
-
+```
+mvn spring-boot:run
+```
 
 The application will start, and you can access it at [http://localhost:8080](http://localhost:8080).
 
@@ -80,8 +86,9 @@ The application will start, and you can access it at [http://localhost:8080](htt
 
 The project includes JUnit tests for various components. To run the tests, use the following command:
 
-''mvn test''
-
+```
+mvn test
+```
 
 ## Contributors
 
