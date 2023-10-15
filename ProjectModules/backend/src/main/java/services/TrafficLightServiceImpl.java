@@ -1,6 +1,5 @@
 package services;
 
-import interfaces.TrafficLight;
 import interfaces.TrafficLightRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -10,18 +9,20 @@ import interfaces.TrafficLightsService;
 @Service
 @Component
 public class TrafficLightServiceImpl implements TrafficLightsService{
+    private final TrafficLightRepository repository;
+
     @Autowired
-    private TrafficLightRepository trafficLightRepository;
-    @Autowired
-    private TrafficLight trafficLight;
+    public TrafficLightServiceImpl(TrafficLightRepository repository) {
+        this.repository = repository;
+    }
 
     @Override
     public void setMode(String mode) {
-        trafficLightRepository.saveState(mode);
+        repository.saveState(mode);
     }
 
     @Override
     public String getCurrentMode() {
-        return trafficLightRepository.getCurrentState();
+        return repository.getCurrentState();
     }
 }

@@ -1,7 +1,10 @@
 package repository;
 
 import interfaces.TrafficLightRepository;
+import org.springframework.stereotype.Repository;
 
+
+@Repository
 public class TrafficLightLocalRepository implements TrafficLightRepository {
     private String currentState;
 
