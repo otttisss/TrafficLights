@@ -13,6 +13,7 @@
         <module>repository</module>
         <module>logic-rest</module>
         <module>backend</module>
+        <module>tests</module>
     </modules>
 
     <properties>
