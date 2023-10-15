@@ -37,7 +37,7 @@ git clone https://github.com/otttisss/TrafficLights.git
 3. Navigate to the project directory:
 
 ```
-cd traffic-light-control
+cd TrafficLights
 ```
 
 4. Build the project:
